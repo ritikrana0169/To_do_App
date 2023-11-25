@@ -1,0 +1,73 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background:url("./vecteezy_flat-design-abstract-background-soft-liquid-shapes-template_.jpg");
+}
+
+.container {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 400px;
+    margin: auto;
+}
+
+h1 {
+    color: #007bff;
+}
+
+.input-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+input {
+    flex: 1;
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    outline: none;
+}
+
+button {
+    flex: 0 0 48%;
+    padding: 8px 16px;
+    font-size: 14px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #d4edda;
+    padding: 10px;
+    border-radius: 4px;
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+li button {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
